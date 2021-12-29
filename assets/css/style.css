@@ -1,0 +1,35 @@
+h2 {
+  background: #4c4c4c;
+  color: white;
+  font-family: "Arial";
+  font-size: 48px;
+  text-align: center;
+  padding: 10px;
+}
+
+p {
+  color: #333;
+  font-size: 20px;
+  margin: 15px 50px;
+}
+
+ul {
+  color: #777;
+  font-size: 20px;
+  margin: 0 15px;
+}
+
+li:first-child {
+  text-align: start;
+  text-decoration: overline;
+}
+
+li:nth-child(2) {
+  text-align: center;
+  text-decoration: line-through;
+}
+
+li:last-child {
+  text-align: end;
+  text-decoration: underline;
+}
